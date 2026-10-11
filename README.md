@@ -1,3 +1,5 @@
-# 灯见的宣召 · iPhone 网页试玩
+﻿# Light Pact Mobile Demo
 
-横屏使用 iPhone Safari 打开站点链接即可试玩，无需安装应用。此仓库仅包含 Godot 导出的网页文件。
+Public Web build for Light Pact. Open index.html in a modern mobile browser in landscape orientation.
+
+This repository contains the release Web runtime only; the game source remains in the private development repository.
