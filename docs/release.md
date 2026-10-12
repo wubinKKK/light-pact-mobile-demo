@@ -5,6 +5,13 @@ Web runtime files live under app/. GitHub Pages uploads app/ as the site artifac
 Source structure commit: 8ddc78c
 Pages deployment: GitHub Actions
 
+## 2026-10-12 Puzzle and finale motion
+
+- Source commit: `594c31e` in the private Godot repository.
+- Finale crystals now float and pulse; the dark projectile trails animated mist, and successful taps illuminate the touched object. Maze markers, thorn knot, stone tracks and rule boards also respond at their own scene positions.
+- Godot full QA: `QA_FAILED=0`. Local WebKit landscape touch reached the finale, confirmed crystal motion and a successful crystal tap: `WEB_WORLD_QTE_TOUCH_PASS`.
+- Physical iPhone Safari evidence remains pending a device run.
+
 ## 2026-10-12 Character state feedback
 
 - Source commit: `ac5d8f2` in the private Godot repository.
