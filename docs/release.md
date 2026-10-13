@@ -5,6 +5,14 @@ Web runtime files live under app/. GitHub Pages uploads app/ as the site artifac
 Source structure commit: 8ddc78c
 Pages deployment: GitHub Actions
 
+## 2026-10-13 Six-seal Sudoku trial
+
+- Source commit: `e1f1e5b` in the private Godot repository.
+- The decline branch now uses a fixed, unique 6×6 puzzle with a dedicated number pad, conflict highlighting, row-light progress, and a three-stage in-world hint.
+- The Web font subset scans current game sources again; the release check covers 891 runtime glyphs.
+- Godot full QA: `QA_FAILED=0`. Local WebKit 844×390 Sudoku touch: `WEB_SUDOKU_TOUCH_PASS`. Chromium desktop and mobile smoke: `WEB_SMOKE_PASS`.
+- Generic WebKit smoke still emits the pre-existing `glBlitFramebuffer` validation warning, so that broader smoke remains non-green. Physical iPhone Safari testing remains pending.
+
 ## 2026-10-12 Puzzle and finale motion
 
 - Source commit: `594c31e` in the private Godot repository.
